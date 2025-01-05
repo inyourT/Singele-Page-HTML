@@ -1,0 +1,114 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+header {
+    text-align: center;
+    background-color: #2a9d8f;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header .subtitle {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 30px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    font-size: 24px;
+    color: #2a9d8f;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+section p, section ul {
+    margin: 10px 0;
+    padding: 0;
+}
+
+/* Contact Info */
+address {
+    font-style: normal;
+    margin: 10px 0;
+}
+
+address a {
+    text-decoration: none;
+    color: #2a9d8f;
+}
+
+address a:hover {
+    text-decoration: underline;
+}
+
+/* Skills Section */
+.skills p {
+    color: #333;
+    font-size: 16px;
+}
+
+/* Experience Section */
+.experience ul {
+    list-style: none;
+    padding: 0;
+}
+
+.experience ul li {
+    margin-bottom: 15px;
+}
+
+.experience ul li strong {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Across the Internet */
+.across ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.across ul li {
+    background-color: #2a9d8f;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+}
+
+.across ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.across ul li a:hover {
+    text-decoration: underline;
+}
